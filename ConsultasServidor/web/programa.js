@@ -8,8 +8,9 @@ class Sube{
         console.log("Aca se hace la consulta");
         //1. Si tenes saldo o no.
         //2. Mostrar saldo
-        fetch
-    }
+        fetch("ConsultaDeSaldo",{
+            method: 'GET'});        }
+    
 }
 
 Sube.main();
