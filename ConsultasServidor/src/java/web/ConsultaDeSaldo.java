@@ -14,7 +14,9 @@ public class ConsultaDeSaldo extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        
+        System.out.println("Estamos en el Servidor, metodo doGet");
+        int saldo = -45;
+        resp.getWriter().println(saldo);
     }
 
     @Override
